@@ -95,12 +95,12 @@ src/
 
 ## Featured Projects
 
-| Project | Type | Tech Stack | Domain |
-|---------|------|-----------|--------|
-| **FR8** | Web | ReactJS, Redux, Jest | E-Commerce / Auctions |
-| **Passport Atlanta** | Web | ReactJS, PostgreSQL | Nonprofit / Education |
-| **Tribal Rides** | Mobile | React Native, TypeScript, Google Maps, Stripe | Ridesharing |
-| **CommunityX** | Mobile | React Native, WebSocket, Stripe | Social Networking |
+| Domain                    | Type   | Tech Stack                                    |
+| ------------------------- | ------ | --------------------------------------------- |
+| **E-Commerce / Auctions** | Web    | ReactJS, Redux, Jest                          |
+| **Nonprofit / Education** | Web    | ReactJS, PostgreSQL                           |
+| **Ridesharing**           | Mobile | React Native, TypeScript, Google Maps, Stripe |
+| **Social Networking**     | Mobile | React Native, WebSocket, Stripe               |
 
 ## Contact
 
