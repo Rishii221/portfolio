@@ -15,7 +15,7 @@ const Projects = () => {
   const [isLoading, setIsLoading] = useState(false);
   const [hoveredProject, setHoveredProject] = useState(null);
 
-  const projects = [
+  const projects = useMemo(() => [
     {
       id: 1,
       title: "FR8 - E-Commerce Platform",
@@ -111,7 +111,7 @@ const Projects = () => {
       gradient: "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
       stats: { users: "10K+", rating: 4.8 },
     },
-  ];
+  ], []);
 
   // Animation effect when filter changes
   useEffect(() => {
