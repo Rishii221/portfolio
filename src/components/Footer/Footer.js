@@ -195,10 +195,11 @@ const Footer = () => {
                             ? "_self"
                             : "_blank"
                         }
-                        rel={
-                          contact.href.startsWith("http")
-                            ? "noopener noreferrer"
-                            : ""
+                         rel={
+                          contact.href.startsWith("mailto") ||
+                          contact.href.startsWith("tel")
+                            ? ""
+                            : "noopener noreferrer"
                         }
                       >
                         {contact.text}
