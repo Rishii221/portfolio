@@ -135,7 +135,7 @@ const Projects = () => {
     }, 300);
 
     return () => clearTimeout(timer);
-  }, [filter]);
+  }, [filter, projects]);
 
   const categories = [
     { key: "all", label: "All Projects", count: projects.length },
