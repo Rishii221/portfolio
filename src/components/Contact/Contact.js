@@ -5,7 +5,6 @@ import {
   FiPhone,
   FiMapPin,
   FiLinkedin,
-  FiGithub,
   FiSend,
   FiUser,
   FiMessageSquare,

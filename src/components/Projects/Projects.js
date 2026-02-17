@@ -1,9 +1,6 @@
 import React, { useState, useEffect } from "react";
 import {
-  FiExternalLink,
-  FiGithub,
   FiStar,
-  FiUsers,
   FiShoppingCart,
   FiMessageSquare,
   FiTruck,
@@ -153,11 +150,6 @@ const Projects = () => {
       count: projects.filter((p) => p.category === "web").length,
     },
   ];
-
-  const filteredProjects =
-    filter === "all"
-      ? projects
-      : projects.filter((project) => project.category === filter);
 
   // Enhanced filter change handler
   const handleFilterChange = (newFilter) => {
